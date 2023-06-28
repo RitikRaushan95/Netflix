@@ -1,0 +1,375 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+/*---------------------------1st Portion started----------------------------------- */
+
+.First_Part{
+    height: 104vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(netflix\ backgroung.jpg);
+    background-size: cover;
+}
+.navigation_bar{
+    margin-left: 13vh;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation_bar img{
+    margin-top: 3.5vh;
+    width: 12%;
+    height: 20%;
+}
+.SignIn{
+    margin-right: 25vh;
+}
+.SignIn select{
+    color: white;
+    background: none;
+    border-radius: .7vh;
+    height: 5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.SignIn button{
+    border-radius: .7vh;
+    height: 5vh;
+    margin-left: 2vh;
+    width: 13vh;
+    background-color: #E50914;
+    border-color: #E50914;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+.SignIn button:hover{
+    background-color: #85040a;
+    border-color: #85040a;
+}
+#Section1{
+    color: white;
+    line-height: 5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 33vh;
+    text-align: center;
+}
+#Section1 h1{
+    font-weight: bolder;
+    font-size: 280%;
+}
+#Section1 p{
+    margin-top: 4vh;
+    line-height: 8vh;
+    font-size: 120%;
+}
+.Email_input input{
+    background-color: transparent;
+    margin-top: 2vh;
+    border-color: rgba(128, 128, 128, 0.877);
+    border-width: 3px;
+    color: black;
+    font-size: large;
+    border-radius: 1vh;
+    height: 8vh;
+    width: 58vh;
+    color: white;
+    cursor: text;
+}
+.Email_input button{
+    font-weight: 500;
+    font-size: x-large;
+    color: white;
+    background-color: #E50914;
+    border-color: #E50914;
+    border-radius: 1vh;
+    margin-left: 1vh;
+    width: 26vh;
+    height: 9vh;
+}
+.Email_input button:hover{
+    background-color: #85040a;
+    border-color: #E50914;
+}
+.First_Part hr{
+    margin-top: 23.5vh;
+    height: 1.2vh;
+    background-color: #303030;
+    border-color: #303030;
+    border-bottom: #303030;
+} 
+/*...................................2nd Portion started.........................................................*/
+
+
+.text2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 14vh;
+    margin-left: 12vh;
+}
+.text2 h1{
+    font-weight: bolder;
+    font-size: 280%;
+}
+.text2 p{
+    margin-top: 2vh;
+    font-size: 120%;
+}
+.video img{
+    margin-left: 92vh;
+    margin-top: -46vh;
+    width: 35%;
+    height: 35%;
+}
+.video video{
+    
+    width: 30%;
+    margin-left: 100vh;
+    margin-top: -38vh;
+}
+.Section2 hr{
+    margin-top: 8vh;
+    height: 1.2vh;
+    background-color: #303030;
+    border-color: #303030;
+    border-bottom: #303030;
+}
+
+/*------------------------------------3rd Portion started-----------------------------------*/
+
+
+.image3 img{
+    margin-top: 15vh;
+    margin-left: 25vh;
+    width: 32%;
+    height: 32%;
+}
+.text3{
+    color: white;
+    font-family: sans-serif;
+    margin-top: -50vh;
+    margin-left: 100vh;
+}
+.text3 h1{
+    font-weight: 900;
+    font-size: 320%;
+}
+.text3 p{
+    margin-top: 3vh;
+    font-size: x-large;
+    letter-spacing: .3vh;
+}
+.Section3 hr{
+    margin-top: 18vh;
+    height: 1.2vh;
+    background-color: #303030;
+    border-color: #303030;
+    border-bottom: #303030;
+}
+
+/*------------------------------------4th Portion started-----------------------------------*/
+
+
+.text4{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding: 5vh;
+    
+}
+.text4 h1{
+    margin-top: 20vh;
+    margin-left: 20vh;
+    font-weight: 900;
+    font-size: 280%;
+}
+.text4 p{
+    margin-top: 2vh;
+    margin-left: 20vh;
+    font-size: x-large;
+    letter-spacing: 0vh;
+}
+.video2 img{
+    margin-left: 103vh;
+    margin-top: -34vh;
+    width: 38%;
+    height: 38%;
+}
+.video2 video{
+     width: 24.5%;
+    margin-left: 117vh;
+    margin-top: -40vh;
+}
+.Section4 hr{
+    margin-top: 8vh;
+    height: 1.2vh;
+    background-color: #303030;
+    border-color: #303030;
+    border-bottom: #303030;
+}
+
+/*------------------------------------5th Portion started-----------------------------------*/
+
+/* .Section5{
+    background-color: black;
+} */
+.image5 img{
+    margin-top: 15vh;
+    margin-left: 25vh;
+    width: 32%;
+    height: 32%;
+}
+.text5{
+    color: white;
+    font-family: sans-serif;
+    margin-top: -50vh;
+    margin-left: 100vh;
+}
+.text5 h1{
+    font-weight: 900;
+    font-size: 280%;
+}
+.text5 p{
+    margin-top: 3vh;
+    font-size: x-large;
+    letter-spacing: .3vh;
+}
+.Section5 hr{
+    margin-top: 33vh;
+    height: 1.2vh;
+    background-color: #303030;
+    border-color: #303030;
+    border-bottom: #303030;
+}
+
+
+/*------------------------------------6th Portion started-----------------------------------*/
+.Section6{
+    font-family: sans-serif;
+    margin: 10vh;
+}
+.Section6 h1{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 280%;
+}
+
+.Questions{
+    margin: 2vh auto;
+    width: 155vh;
+    margin-left: 13vh;
+}
+.Questions li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.Questions li label{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 2.5vh;
+    font-size: 4vh;
+    background-color: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    height: 8vh;
+
+}
+label::after{
+    content: '+';
+    font-size: 9vh;
+    position: absolute;
+    right: 5vh;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.Questions .answer{
+    font-size: 3vh;
+    background-color: #303030;
+    text-align: left;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.Questions input[type="radio"]:checked +label+.answer{
+    max-height: 30vh;
+    padding: 1vh 1vh;
+}
+.Questions input[type="radio"]:checked +label::after{
+    transform: rotate(135deg);
+}
+
+.Email2{
+    text-align: center;
+    margin-top: 8vh;
+}
+.Email2 small{
+    font-size: 3vh;
+}
+
+hr{
+    height: 1.2vh;
+    background-color: #303030;
+    border-color: #303030;
+    border-bottom: #303030;
+}
+
+
+/*------------------------------------7th Portion started(Footeer)-----------------------------------*/
+
+footer{
+    background-color: #000;
+    font-family: sans-serif;
+    margin-left: 23vh; 
+    height: 60vh; 
+    margin-top: 10vh;
+} 
+footer p{
+    margin-left: 2vh;
+    font-family: sans-serif;
+    font-size: 2.4vh;
+}
+
+table {
+    margin-top: 2vh;
+    width: 80%;
+}
+ table tr,td{
+    padding: 1.5vh;
+}
+table a{
+    font-size: 2vh;
+    row-gap: 5vh;
+    color: #fff;
+}
+select{
+    margin-left: 2vh;
+    color: white;
+    background: none;
+    border-radius: .7vh;
+    height: 5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin-top: 5vh;
+    font-size: 2.5vh;
+    width: 18vh;
+}
+footer pre{
+    font-family: sans-serif;
+    margin-top: 3vh;
+    margin-left: 2vh;
+    font-size: 2vh;
+}
+
+/* ................................................End Of the code................................................... */
+
+@media only screen and (max-width: 1140px){
+    body{
+        display: none;
+    }
+}
